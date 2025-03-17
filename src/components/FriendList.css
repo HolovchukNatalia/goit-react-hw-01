@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.status-isOnline {
+	color: green;
+}
+
+.status-isOffline {
+	color: red;
+}
+
+.friends__list{
+	font-family: "Lilita One", sans-serif;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin: 50px 0 0 0px;
+	flex-wrap: wrap;
+}
+
+.friend__item{
+	padding: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.friend__name{
+	letter-spacing: 1.5px;
+	margin: 5px 0;
+}
+
+div > p {
+	letter-spacing: 1px;
+}

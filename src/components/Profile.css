@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.profile{
+	font-family: "Lilita One", sans-serif;
+	font-style: normal;
+	border: 3px solid black;
+	border-radius: 20px;
+	background-color:rgb(241, 241, 241);
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.portfofio__img{
+	width: 250px;
+	height: 100%;
+	border-radius: 50%;
+	background-color: rgb(51, 51, 51);
+	margin-bottom: 20px;
+}
+
+.user__name{
+	font-size: 3rem;
+	margin-bottom: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.user__tag, .user__location{
+	color: #8a8a8a;
+	font-size: 2rem;
+	letter-spacing: 1.8px;
+}
+
+
+.user__stats{
+	display: flex;
+	justify-content: space-between;
+	border-top: 3px solid #8a8a8a;
+	background-color: rgb(177, 177, 177);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.user__stats-item{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5rem;
+	flex: 1;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+}
+.user__stats-item span:nth-child(2){
+	font-weight: 600;
+}
+.user__stats-item:not(:last-child) {
+	border-right: 3px solid #8a8a8a;
+}

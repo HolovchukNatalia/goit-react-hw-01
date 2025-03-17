@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.transaction__table {
+	font-family: "Lilita One", sans-serif;
+	margin: 50px auto 0;
+	border-collapse: collapse;
+}
+.transition__title{
+	background-color: rgb(54, 54, 54);
+	color: white;
+	letter-spacing: 4px;
+}
+
+.transaction__table tr:nth-child(2n + 2){
+	background-color: #a1a1a1;
+}
+
+.transaction__table th, .transaction__table td {
+	border: 2px solid #000000;
+	padding: 5px;
+	font-size: 1.2rem;
+}
+
+.transaction__table th {
+	width: 250px;
+}
